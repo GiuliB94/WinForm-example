@@ -26,6 +26,7 @@ namespace Dominio
         [DisplayName("Categoría")]
         public Categoria category { get; set; }
 
+
         [DisplayName("URL Imágen")]
         public string img { get; set; }
 
@@ -35,4 +36,5 @@ namespace Dominio
 		{
 		}
 	}
+
 }
